@@ -1,0 +1,71 @@
+# 编译输出
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go
+vendor/
+*.out
+*.log
+
+# 后端数据
+backend/data/
+backend/logs/
+backend/*.log
+backend/config.yaml
+backend/pansou-backend
+backend/pansou-backend.exe
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.tmp/
+
+# 依赖缓存
+frontend/.vite/
+frontend/node_modules/.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 环境变量
+.env
+.env.local
+.env.production
+*.env
+
+# 日志
+*.log
+logs/
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 系统文件
+Thumbs.db
+desktop.ini
+
+# 敏感信息
+config.yaml
+*.pem
+*.key
+*.crt
+manager.sh
